@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		327D95BB2624808900FDB0C5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327D95BA2624808900FDB0C5 /* BaseViewController.swift */; };
+		32C750FB2623623E003CF86C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C750FA2623623E003CF86C /* AppDelegate.swift */; };
+		32C750FD2623623E003CF86C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C750FC2623623E003CF86C /* SceneDelegate.swift */; };
+		32C750FF2623623E003CF86C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C750FE2623623E003CF86C /* ViewController.swift */; };
+		32C751022623623E003CF86C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C751002623623E003CF86C /* Main.storyboard */; };
+		32C7510426236242003CF86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C7510326236242003CF86C /* Assets.xcassets */; };
+		32C7510726236242003CF86C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C7510526236242003CF86C /* LaunchScreen.storyboard */; };
+		32C7511226236243003CF86C /* BiocatchTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7511126236243003CF86C /* BiocatchTestTests.swift */; };
+		32C7511D26236243003CF86C /* BiocatchTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7511C26236243003CF86C /* BiocatchTestUITests.swift */; };
+		32C7512F26236770003CF86C /* TouchEventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7512E26236770003CF86C /* TouchEventManager.swift */; };
+		32C75137262367A6003CF86C /* TouchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C75136262367A6003CF86C /* TouchEvent.swift */; };
+		32C7514C26237453003CF86C /* TouchEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7514B26237453003CF86C /* TouchEventView.swift */; };
+		32C75151262377B2003CF86C /* UITouch+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C75150262377B2003CF86C /* UITouch+Extension.swift */; };
+		32DB90482624903D003CB225 /* FormEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB90472624903D003CB225 /* FormEmojiViewController.swift */; };
+		32DB904E2624904A003CB225 /* TouchSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32DB904C2624904A003CB225 /* TouchSettingsViewController.xib */; };
+		32DB904F2624904A003CB225 /* TouchSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB904D2624904A003CB225 /* TouchSettingsViewController.swift */; };
+		32DB905426249058003CB225 /* LinkedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB905326249058003CB225 /* LinkedTextField.swift */; };
+		32DB905F262499C5003CB225 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32DB905E262499C5003CB225 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32C7510E26236243003CF86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32C750EF2623623E003CF86C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C750F62623623E003CF86C;
+			remoteInfo = BiocatchTest;
+		};
+		32C7511926236243003CF86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32C750EF2623623E003CF86C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C750F62623623E003CF86C;
+			remoteInfo = BiocatchTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		327D95BA2624808900FDB0C5 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		32C750F72623623E003CF86C /* BiocatchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiocatchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C750FA2623623E003CF86C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32C750FC2623623E003CF86C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32C750FE2623623E003CF86C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32C751012623623E003CF86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32C7510326236242003CF86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32C7510626236242003CF86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32C7510826236242003CF86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C7510D26236243003CF86C /* BiocatchTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiocatchTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C7511126236243003CF86C /* BiocatchTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiocatchTestTests.swift; sourceTree = "<group>"; };
+		32C7511326236243003CF86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C7511826236243003CF86C /* BiocatchTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiocatchTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C7511C26236243003CF86C /* BiocatchTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiocatchTestUITests.swift; sourceTree = "<group>"; };
+		32C7511E26236243003CF86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C7512E26236770003CF86C /* TouchEventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEventManager.swift; sourceTree = "<group>"; };
+		32C75136262367A6003CF86C /* TouchEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEvent.swift; sourceTree = "<group>"; };
+		32C7514B26237453003CF86C /* TouchEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEventView.swift; sourceTree = "<group>"; };
+		32C75150262377B2003CF86C /* UITouch+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITouch+Extension.swift"; sourceTree = "<group>"; };
+		32DB90472624903D003CB225 /* FormEmojiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormEmojiViewController.swift; sourceTree = "<group>"; };
+		32DB904C2624904A003CB225 /* TouchSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchSettingsViewController.xib; sourceTree = "<group>"; };
+		32DB904D2624904A003CB225 /* TouchSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchSettingsViewController.swift; sourceTree = "<group>"; };
+		32DB905326249058003CB225 /* LinkedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedTextField.swift; sourceTree = "<group>"; };
+		32DB905E262499C5003CB225 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32C750F42623623E003CF86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C7510A26236243003CF86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C7511526236243003CF86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		327D95B92624802F00FDB0C5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				327D95BA2624808900FDB0C5 /* BaseViewController.swift */,
+				32C750FE2623623E003CF86C /* ViewController.swift */,
+				32DB905E262499C5003CB225 /* ViewController.xib */,
+				32DB90472624903D003CB225 /* FormEmojiViewController.swift */,
+				32DB904D2624904A003CB225 /* TouchSettingsViewController.swift */,
+				32DB904C2624904A003CB225 /* TouchSettingsViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		32C750EE2623623E003CF86C = {
+			isa = PBXGroup;
+			children = (
+				32C750F92623623E003CF86C /* BiocatchTest */,
+				32C7511026236243003CF86C /* BiocatchTestTests */,
+				32C7511B26236243003CF86C /* BiocatchTestUITests */,
+				32C750F82623623E003CF86C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32C750F82623623E003CF86C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32C750F72623623E003CF86C /* BiocatchTest.app */,
+				32C7510D26236243003CF86C /* BiocatchTestTests.xctest */,
+				32C7511826236243003CF86C /* BiocatchTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C750F92623623E003CF86C /* BiocatchTest */ = {
+			isa = PBXGroup;
+			children = (
+				32C750FA2623623E003CF86C /* AppDelegate.swift */,
+				32C750FC2623623E003CF86C /* SceneDelegate.swift */,
+				327D95B92624802F00FDB0C5 /* ViewControllers */,
+				32C7514A26237055003CF86C /* Widgets */,
+				32C7512D26236730003CF86C /* Model */,
+				32C751002623623E003CF86C /* Main.storyboard */,
+				32C7510326236242003CF86C /* Assets.xcassets */,
+				32C7510526236242003CF86C /* LaunchScreen.storyboard */,
+				32C7510826236242003CF86C /* Info.plist */,
+			);
+			path = BiocatchTest;
+			sourceTree = "<group>";
+		};
+		32C7511026236243003CF86C /* BiocatchTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				32C7511126236243003CF86C /* BiocatchTestTests.swift */,
+				32C7511326236243003CF86C /* Info.plist */,
+			);
+			path = BiocatchTestTests;
+			sourceTree = "<group>";
+		};
+		32C7511B26236243003CF86C /* BiocatchTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32C7511C26236243003CF86C /* BiocatchTestUITests.swift */,
+				32C7511E26236243003CF86C /* Info.plist */,
+			);
+			path = BiocatchTestUITests;
+			sourceTree = "<group>";
+		};
+		32C7512D26236730003CF86C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32C7512E26236770003CF86C /* TouchEventManager.swift */,
+				32C75136262367A6003CF86C /* TouchEvent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32C7514A26237055003CF86C /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				32C7514B26237453003CF86C /* TouchEventView.swift */,
+				32C75150262377B2003CF86C /* UITouch+Extension.swift */,
+				32DB905326249058003CB225 /* LinkedTextField.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32C750F62623623E003CF86C /* BiocatchTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C7512126236243003CF86C /* Build configuration list for PBXNativeTarget "BiocatchTest" */;
+			buildPhases = (
+				32C750F32623623E003CF86C /* Sources */,
+				32C750F42623623E003CF86C /* Frameworks */,
+				32C750F52623623E003CF86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiocatchTest;
+			productName = BiocatchTest;
+			productReference = 32C750F72623623E003CF86C /* BiocatchTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32C7510C26236243003CF86C /* BiocatchTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C7512426236243003CF86C /* Build configuration list for PBXNativeTarget "BiocatchTestTests" */;
+			buildPhases = (
+				32C7510926236243003CF86C /* Sources */,
+				32C7510A26236243003CF86C /* Frameworks */,
+				32C7510B26236243003CF86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32C7510F26236243003CF86C /* PBXTargetDependency */,
+			);
+			name = BiocatchTestTests;
+			productName = BiocatchTestTests;
+			productReference = 32C7510D26236243003CF86C /* BiocatchTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32C7511726236243003CF86C /* BiocatchTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C7512726236243003CF86C /* Build configuration list for PBXNativeTarget "BiocatchTestUITests" */;
+			buildPhases = (
+				32C7511426236243003CF86C /* Sources */,
+				32C7511526236243003CF86C /* Frameworks */,
+				32C7511626236243003CF86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32C7511A26236243003CF86C /* PBXTargetDependency */,
+			);
+			name = BiocatchTestUITests;
+			productName = BiocatchTestUITests;
+			productReference = 32C7511826236243003CF86C /* BiocatchTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32C750EF2623623E003CF86C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					32C750F62623623E003CF86C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					32C7510C26236243003CF86C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 32C750F62623623E003CF86C;
+					};
+					32C7511726236243003CF86C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 32C750F62623623E003CF86C;
+					};
+				};
+			};
+			buildConfigurationList = 32C750F22623623E003CF86C /* Build configuration list for PBXProject "BiocatchTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32C750EE2623623E003CF86C;
+			productRefGroup = 32C750F82623623E003CF86C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32C750F62623623E003CF86C /* BiocatchTest */,
+				32C7510C26236243003CF86C /* BiocatchTestTests */,
+				32C7511726236243003CF86C /* BiocatchTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32C750F52623623E003CF86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DB905F262499C5003CB225 /* ViewController.xib in Resources */,
+				32C7510726236242003CF86C /* LaunchScreen.storyboard in Resources */,
+				32DB904E2624904A003CB225 /* TouchSettingsViewController.xib in Resources */,
+				32C7510426236242003CF86C /* Assets.xcassets in Resources */,
+				32C751022623623E003CF86C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C7510B26236243003CF86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C7511626236243003CF86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32C750F32623623E003CF86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C750FF2623623E003CF86C /* ViewController.swift in Sources */,
+				32DB904F2624904A003CB225 /* TouchSettingsViewController.swift in Sources */,
+				32C750FB2623623E003CF86C /* AppDelegate.swift in Sources */,
+				32C7512F26236770003CF86C /* TouchEventManager.swift in Sources */,
+				32C7514C26237453003CF86C /* TouchEventView.swift in Sources */,
+				32C75137262367A6003CF86C /* TouchEvent.swift in Sources */,
+				32DB905426249058003CB225 /* LinkedTextField.swift in Sources */,
+				32DB90482624903D003CB225 /* FormEmojiViewController.swift in Sources */,
+				327D95BB2624808900FDB0C5 /* BaseViewController.swift in Sources */,
+				32C750FD2623623E003CF86C /* SceneDelegate.swift in Sources */,
+				32C75151262377B2003CF86C /* UITouch+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C7510926236243003CF86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C7511226236243003CF86C /* BiocatchTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C7511426236243003CF86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C7511D26236243003CF86C /* BiocatchTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32C7510F26236243003CF86C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C750F62623623E003CF86C /* BiocatchTest */;
+			targetProxy = 32C7510E26236243003CF86C /* PBXContainerItemProxy */;
+		};
+		32C7511A26236243003CF86C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C750F62623623E003CF86C /* BiocatchTest */;
+			targetProxy = 32C7511926236243003CF86C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32C751002623623E003CF86C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32C751012623623E003CF86C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32C7510526236242003CF86C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32C7510626236242003CF86C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32C7511F26236243003CF86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32C7512026236243003CF86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32C7512226236243003CF86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GWZ4W5JN87;
+				INFOPLIST_FILE = BiocatchTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericshorr.BiocatchTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32C7512326236243003CF86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GWZ4W5JN87;
+				INFOPLIST_FILE = BiocatchTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericshorr.BiocatchTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32C7512526236243003CF86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GWZ4W5JN87;
+				INFOPLIST_FILE = BiocatchTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericshorr.BiocatchTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiocatchTest.app/BiocatchTest";
+			};
+			name = Debug;
+		};
+		32C7512626236243003CF86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GWZ4W5JN87;
+				INFOPLIST_FILE = BiocatchTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericshorr.BiocatchTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiocatchTest.app/BiocatchTest";
+			};
+			name = Release;
+		};
+		32C7512826236243003CF86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GWZ4W5JN87;
+				INFOPLIST_FILE = BiocatchTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericshorr.BiocatchTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiocatchTest;
+			};
+			name = Debug;
+		};
+		32C7512926236243003CF86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GWZ4W5JN87;
+				INFOPLIST_FILE = BiocatchTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericshorr.BiocatchTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiocatchTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32C750F22623623E003CF86C /* Build configuration list for PBXProject "BiocatchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C7511F26236243003CF86C /* Debug */,
+				32C7512026236243003CF86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C7512126236243003CF86C /* Build configuration list for PBXNativeTarget "BiocatchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C7512226236243003CF86C /* Debug */,
+				32C7512326236243003CF86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C7512426236243003CF86C /* Build configuration list for PBXNativeTarget "BiocatchTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C7512526236243003CF86C /* Debug */,
+				32C7512626236243003CF86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C7512726236243003CF86C /* Build configuration list for PBXNativeTarget "BiocatchTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C7512826236243003CF86C /* Debug */,
+				32C7512926236243003CF86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32C750EF2623623E003CF86C /* Project object */;
+}
