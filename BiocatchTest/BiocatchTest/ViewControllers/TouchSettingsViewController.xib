@@ -28,13 +28,13 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap Threshold" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJI-qg-IMj">
-                    <rect key="frame" x="31" y="162" width="109" height="21"/>
+                    <rect key="frame" x="31" y="162" width="121" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Swipe Speed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j2A-S2-mGB">
-                    <rect key="frame" x="31" y="228" width="136" height="21"/>
+                    <rect key="frame" x="31" y="228" width="159" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -49,7 +49,7 @@
                     </connections>
                 </textField>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XCq-1O-is8" customClass="LinkedTextField" customModule="BiocatchTest" customModuleProvider="target">
-                    <rect key="frame" x="198" y="141" width="151" height="34"/>
+                    <rect key="frame" x="210" y="141" width="139" height="34"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                     <connections>
@@ -58,7 +58,7 @@
                     </connections>
                 </textField>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E0M-ML-dAM" customClass="LinkedTextField" customModule="BiocatchTest" customModuleProvider="target">
-                    <rect key="frame" x="187" y="211" width="162" height="34"/>
+                    <rect key="frame" x="210" y="211" width="139" height="34"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                     <connections>
@@ -79,13 +79,13 @@
                     </items>
                 </navigationBar>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Press Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="InE-64-XEh">
-                    <rect key="frame" x="31" y="287" width="121" height="21"/>
+                    <rect key="frame" x="31" y="287" width="159" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Icf-Gc-M6d" customClass="LinkedTextField" customModule="BiocatchTest" customModuleProvider="target">
-                    <rect key="frame" x="172" y="270" width="177" height="34"/>
+                    <rect key="frame" x="210" y="270" width="139" height="34"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                     <connections>
@@ -98,7 +98,9 @@
             <constraints>
                 <constraint firstItem="E0M-ML-dAM" firstAttribute="leading" secondItem="j2A-S2-mGB" secondAttribute="trailing" constant="20" id="3hN-r0-xo7"/>
                 <constraint firstItem="Icf-Gc-M6d" firstAttribute="trailing" secondItem="E0M-ML-dAM" secondAttribute="trailing" id="CGb-Th-EkR"/>
+                <constraint firstItem="E0M-ML-dAM" firstAttribute="width" secondItem="Y0B-dY-xoQ" secondAttribute="width" id="CTA-Wh-oUQ"/>
                 <constraint firstItem="InE-64-XEh" firstAttribute="top" secondItem="j2A-S2-mGB" secondAttribute="bottom" constant="38" id="JEj-8S-YpA"/>
+                <constraint firstItem="XCq-1O-is8" firstAttribute="width" secondItem="Y0B-dY-xoQ" secondAttribute="width" id="Lo4-X3-FOA"/>
                 <constraint firstItem="Icf-Gc-M6d" firstAttribute="top" secondItem="E0M-ML-dAM" secondAttribute="bottom" constant="25" id="MJG-RD-0Oz"/>
                 <constraint firstItem="ovO-gV-ll7" firstAttribute="leading" secondItem="mL8-no-knR" secondAttribute="leading" constant="31" id="Myb-Xf-NNP"/>
                 <constraint firstItem="Icf-Gc-M6d" firstAttribute="leading" secondItem="InE-64-XEh" secondAttribute="trailing" constant="20" id="PYA-o9-8T9"/>
@@ -114,6 +116,7 @@
                 <constraint firstItem="mL8-no-knR" firstAttribute="trailing" secondItem="XCq-1O-is8" secondAttribute="trailing" constant="26" id="gEo-rQ-Azx"/>
                 <constraint firstItem="UJI-qg-IMj" firstAttribute="top" secondItem="ovO-gV-ll7" secondAttribute="bottom" constant="37" id="jJO-Nh-hS4"/>
                 <constraint firstItem="ovO-gV-ll7" firstAttribute="top" secondItem="uU2-Qz-AFW" secondAttribute="bottom" constant="60" id="mX3-II-sMY"/>
+                <constraint firstItem="Icf-Gc-M6d" firstAttribute="width" secondItem="Y0B-dY-xoQ" secondAttribute="width" id="mXA-UU-9UU"/>
                 <constraint firstItem="XCq-1O-is8" firstAttribute="leading" secondItem="UJI-qg-IMj" secondAttribute="trailing" constant="58" id="pIE-57-VJT"/>
                 <constraint firstItem="j2A-S2-mGB" firstAttribute="top" secondItem="UJI-qg-IMj" secondAttribute="bottom" constant="45" id="q1D-os-310"/>
                 <constraint firstItem="mL8-no-knR" firstAttribute="trailing" secondItem="E0M-ML-dAM" secondAttribute="trailing" constant="26" id="r5N-Tt-LDe"/>
